@@ -23,7 +23,10 @@ let router = createBrowserRouter([
 
 
   ]}
-])
+], {
+  basename:'/start-react'
+}
+)
 
 
 function App() {
